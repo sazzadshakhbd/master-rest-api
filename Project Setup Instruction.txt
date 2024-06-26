@@ -1,0 +1,46 @@
+First of all create an empty folder for the project
+----------------------------------------------------
+1. open terminal > cd desktop
+2. mkdir elib
+3. cd elib
+3. code .
+
+Initialize a node project
+-------------------------
+1. npm init
+2. Discription: This is a ebook api project
+   Kewwords: rest api, express
+   Author: Sazzad <sazzadshakhbd@gmail.com>
+3. Show package.json file in our project
+
+Setup Typescrit
+----------------
+1. npm install -D typescript nodemon ts-node @types/node
+2. go to our project and check package.json file and create a new folder name node-modules
+
+After installation initialize a tsconfig file
+---------------------------------------------
+npx tsc --init
+
+Git Configuration
+-----------------
+1. git -v
+2. git init
+3. gitignore extension setup for my vs-code
+4. control+shift+p > search gitignore > Add Gitignore > select node project
+5. commit this work
+
+Add dev script in package.json file
+-----------------------------------
+1. go to package.json file
+2. change this ["scripts":{"dev": "nodemon server.ts"},]
+3. create server.ts under package.json file in our root project
+4. write this 'console.log("our books api projects");' in our server.ts file
+5. run this command 'npm run dev'
+6. show this text our nodemon terminal
+
+
+
+
+
+

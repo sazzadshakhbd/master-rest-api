@@ -60,10 +60,36 @@ Eslint Configuration
 Setup text formatting using Prettier
 ------------------------------------
 1. Prettier extension install our vs code-editor
-2. Open settings > search format > check tick mark on format on save
+2. Open settings [ctrl+,] > search format > check tick mark on format on save
 3. Create .prettierrc.json file in my root project and apply this rules
 4. {“tabWidth”:2”}
 5. Commit this on git
+
+Setup Express Server
+--------------------
+1. Install express server - "npm install express"
+2. Install typescript dependency  - "npm install -D @types/express"
+3. create - src folder > app.ts file in our root project
+4. write this code in our app.ts file
+   a) import express from 'express' [first of all express import]
+   b) const app = express(); [create a app instance]
+   c) export default app [exprot express]
+5. import express from server.ts file - "import app from './src/app'"
+6  server setup code declare function --- 
+    const SrartServer = () => {
+
+	const port  = process.env.PORT || 3000;
+
+	app.listen(port, ()=> {
+	  console.log(`Listening on port: ${port}`);
+	}
+    }
+    SrartServer();
+7. Now go to app.ts file and create route. write this code. get means http methods like [get, post, delete, patch, put]
+8. app.get('/', (req, res, next)=> {
+     res.json({message: "Welcome to elib apis"})
+   })
+
 
 
 

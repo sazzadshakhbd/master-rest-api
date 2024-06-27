@@ -39,6 +39,34 @@ Add dev script in package.json file
 5. run this command 'npm run dev'
 6. show this text our nodemon terminal
 
+Eslint Configuration
+-------------------
+1. Go eslint.org 
+2. Copy this code — npm init @eslint/config@latest
+3. Run this code our terminal or project
+4. Make sure your project is installed latest node version
+5. Select ‘to check syntax and find problems’
+6. Select ‘Javascript Modules (import and export)
+7. Select ‘None of this’
+8. Select ‘Yes’
+9. Select ‘Node’
+10. Select ‘Json’
+11. Select ‘Yes’
+12. Select ’rpm’
+13. Show new file - name ‘.eslintrc.json’ in our project 
+14. Commit this on git
+15. Eslint plugin install in our vs-code
+
+Setup text formatting using Prettier
+------------------------------------
+1. Prettier extension install our vs code-editor
+2. Open settings > search format > check tick mark on format on save
+3. Create .prettierrc.json file in my root project and apply this rules
+4. {“tabWidth”:2”}
+5. Commit this on git
+
+
+
 
 
 

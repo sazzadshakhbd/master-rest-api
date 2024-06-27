@@ -2,16 +2,20 @@
   "name": "master-rest-api",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "dev": "nodemon server.ts"
   },
   "author": "Sazzad <sazzadshakhbd@gmail.com>",
   "license": "ISC",
   "description": "This is eBook Project",
   "devDependencies": {
+    "@eslint/js": "^9.5.0",
     "@types/node": "^20.14.9",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
   }
 }
